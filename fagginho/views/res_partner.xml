@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+		<record model="ir.ui.view" id="res_partner">
+            <field name="name">gio.res.partner.view.inherit.tab</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+            </field>
+        </record>
+    </data>
+</odoo>
