@@ -1,0 +1,18 @@
+<odoo>
+  <data>
+
+      <record id="gio_res_partner_view" model="ir.ui.view">
+          <field name="name">gio.res.partner.view</field>
+          <field name="model">res.partner</field>
+          <field name="inherit_id" ref="base.view_partner_form"/>
+          <field name="arch" type="xml">
+              <field name="phone" position="after">
+                  <field name="phone2" string="Telefon 2"/>
+                  <field name="website2" string="Webseite 2"/>
+                  <field name="oldposition" string="Alte Stelle"/>
+              </field>
+          </field>
+      </record>
+
+  </data>
+</odoo>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+		<record model="ir.ui.view" id="fagginho_view_partner_form">
+            <field name="phone" position="after">
+            <field name="telefon2"/>
+            <field name="website2"/>
+            <field name="altestelle"/>
+        </record>
+    </data>
+</odoo>
